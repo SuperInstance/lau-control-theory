@@ -1,0 +1,16 @@
+[package]
+name = "lau-control-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-control-theory"
+description = "Classical and modern control theory — stability, feedback, and robustness in Rust"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+num-complex = "0.4"
+num-traits = "0.2"
+
+[dev-dependencies]
+approx = "0.5"
